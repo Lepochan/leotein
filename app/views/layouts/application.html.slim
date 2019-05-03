@@ -2,10 +2,17 @@ doctype html
 html
   head
     title
-      | MyApp
+      | SampleApp
     = csrf_meta_tags
     = csp_meta_tag
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    link rel="styleseet" type="text/css" href="application.css"
   body
+    header
+      .header__inner
+        h1.header__site-title leotein :)
     = yield
+    footer
+      .footer__innner
+        p.footer__copyright ©
