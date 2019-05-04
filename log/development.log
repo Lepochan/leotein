@@ -4027,3 +4027,24 @@ Processing by StaticPagesController#home as HTML
 Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2019-05-03 20:21:08 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 289ms (Views: 278.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-04 15:30:38 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.slim within layouts/application
+  Rendered static_pages/home.html.slim within layouts/application (7.7ms)
+Completed 200 OK in 342ms (Views: 332.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-05-04 15:31:37 +0900
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.slim within layouts/application
+  Rendered static_pages/home.html.slim within layouts/application (2.5ms)
+Completed 200 OK in 44ms (Views: 41.6ms | ActiveRecord: 0.0ms)
+
+
