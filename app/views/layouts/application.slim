@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title
+      | leotein :)
+    = csrf_meta_tags
+    = csp_meta_tag
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    link rel="styleseet" type="text/sass" href="application.sass"
+  body
+    header
+      .header__inner
+        h1.header__site-title leotein :)
+        #ham-menu
+          ul
+            li a
+            li b
+            li c
+    = yield
+    footer
+      .footer__innner
+        p.footer__copyright ©
